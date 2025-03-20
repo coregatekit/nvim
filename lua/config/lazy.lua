@@ -36,6 +36,9 @@ require("lazy").setup({
     -- treesitter, mason and typescript.nvim. So instead of the above, you can use:
     { import = "lazyvim.plugins.extras.lang.typescript" },
 
+    { import = "lazyvim.plugins.extras.lang.go" },
+    { import = "lazyvim.plugins.extras.lang.rust" },
+
     { import = "lazyvim.plugins.extras.ui.mini-animate" },
     { import = "lazyvim.plugins.extras.util.gitui" },
 
