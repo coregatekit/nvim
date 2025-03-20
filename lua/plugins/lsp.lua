@@ -9,6 +9,8 @@ return {
         "shfmt",
         "flake8",
         "tailwindcss-language-server",
+        "gopls",
+        "delve",
       },
     },
   },
